@@ -11,9 +11,7 @@ class Template
 ?>
 
         <!DOCTYPE html>
-        <!------------------------------------------------------------------------------->
         <html lang="en">
-        <!------------------------------------------------------------------------------->
         <head>
             <meta charset="UTF-8">
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
