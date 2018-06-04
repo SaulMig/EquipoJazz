@@ -52,6 +52,7 @@ class Template
                             <label for="last_name">Telefono</label>
                         </div>
                     </div>
+                </form>
 
                     <div class="row">
                         <form class="col s12">
@@ -112,6 +113,7 @@ class Template
                                                     </div>
                                                 </form>
                                             </div>
+            </div>
 
                                                     <div class="row">
                                                         <form class="col s12">
