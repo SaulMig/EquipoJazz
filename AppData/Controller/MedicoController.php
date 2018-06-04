@@ -9,7 +9,7 @@
 namespace AppData\Controller;
 
 
-class MedicoController
+class medicoController
 {
     private $Medico;
 
