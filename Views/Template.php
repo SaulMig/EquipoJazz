@@ -43,6 +43,7 @@ class Template
             <div class="row">
                 <form class="col s12">
                     <div class="row">
+
                         <div class="input-field col s6">
                             <input placeholder="" id="primer apellido" type="text" class="validate">
                             <label for="first_name">Primer apellido</label>
@@ -112,7 +113,7 @@ class Template
                                                     </div>
                                                 </form>
                                             </div>
-
+                                                <form>
                                                     <div class="row">
                                                         <form class="col s12">
                                                             <div class="row">
@@ -124,39 +125,40 @@ class Template
                                                                     <input id="año de estudio" type="text" class="validate">
                                                                     <label for="codigo">Año de estudio</label>
                                                                 </div>
-                                                                <div class="input-field col s4">
-                                                                    <p>
-                                                                        <input type="checkbox" id="test1" />
-                                                                        <label for="test1">Hospital</label>
-                                                                    </p>
-                                                                </div>
-                                                                <div class="input-field col s4">
-                                                                    <p>
-                                                                        <input type="checkbox" id="test2" />
-                                                                        <label for="test2">Institución</label>
-                                                                    </p>
-                                                                </div>
-                                                                <div class="input-field col s4">
-                                                                    <p>
-                                                                        <input type="checkbox" id="test3" />
-                                                                        <label for="test3">Estudiantes</label>
-                                                                    </p>
-                                                                </div>
-                                                                <div >
-                                                                    <br>
-                                                                    <div class="input-field col s6">
-                                                                        <br><p>
-                                                                            <br>
-                                                                            <input type="checkbox" id="test4" />
-                                                                            <label for="test4">Curso de Insulinoterapía</label>
+                                                                <form action="Template.php">
+                                                                    <div class="input-field col s4">
+                                                                        <p>
+                                                                            <input type="checkbox" id="test1" />
+                                                                            <label for="test1">Hospital</label>
                                                                         </p>
                                                                     </div>
-                                                                    <br>
-                                                                    <div class="input-field col s12">
-                                                                        <label>|Pre-congreso| 24 de Septiembre |</label>
+                                                                    <div class="input-field col s4">
+                                                                        <p>
+                                                                            <input type="checkbox" id="test2" />
+                                                                            <label for="test2">Institución</label>
+                                                                        </p>
                                                                     </div>
+                                                                    <div class="input-field col s4">
+                                                                        <p>
+                                                                            <input type="checkbox" id="test3" />
+                                                                            <label for="test3">Estudiantes</label>
+                                                                        </p>
+                                                                    </div>
+                                                            </div>
+                                                            <br>
+                                                            <div class="input-field col s12">
+                                                                <label>|Pre-congreso| 24 de Septiembre |</label>
+                                                            </div>
+                                                            <div >
+                                                                <br>
+                                                                <div class="input-field col s6">
+                                                                    <br><p>
+                                                                        <br>
+                                                                        <input type="checkbox" id="test4" />
+                                                                        <label for="test4">Curso de Insulinoterapía</label>
+                                                                    </p>
                                                                     <div class="input-field col s6">
-                                                                        <p><br><br>
+                                                                        <p>
                                                                             <input type="checkbox" id="test5" />
                                                                             <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
                                                                         </p>
@@ -173,15 +175,15 @@ class Template
                                                                             <br>
                                                                             <input type="checkbox" id="test6" />
                                                                             <label for="test6">Medicina Interna-Medicina del <br>
-                                                                            paciente crítico, Coordinador<br>
-                                                                            Dr. Guillermo Porras</label>
+                                                                                paciente crítico, Coordinador<br>
+                                                                                Dr. Guillermo Porras</label>
                                                                         </p>
                                                                     </div>
                                                                     <div class="input-field col s6">
                                                                         <p><br><br>
                                                                             <input type="checkbox" id="test7" />
                                                                             <label for="test7">Pediatría, Coordinador<br>
-                                                                            Dr. Fulgencio Báez</label>
+                                                                                Dr. Fulgencio Báez</label>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -191,7 +193,7 @@ class Template
                                                                         <br>
                                                                         <input type="checkbox" id="test8" />
                                                                         <label for="test8">Cirugía, Coordinador<br>
-                                                                        Dr. Milron Mairena</label>
+                                                                            Dr. Milron Mairena</label>
                                                                     </p>
                                                                 </div>
                                                                 <div class="input-field col s6">
@@ -209,6 +211,8 @@ class Template
                                                                             Dr. Juan J. Lugo</label>
                                                                     </p>
                                                                 </div>
+                                                                </form>
+
                                                             </div>
                                                                 </div>
 
