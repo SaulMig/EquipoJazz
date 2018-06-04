@@ -6,9 +6,6 @@
 #barra {
 	height: 6em;
 }
-#pie {
-	height: 3em;
-}
   main {
     flex: 1 0 auto;
 }
