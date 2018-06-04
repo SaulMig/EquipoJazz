@@ -3,7 +3,9 @@
     min-height: 100vh;
     flex-direction: column;
   }
-
+#barra {
+	height: 6em;
+}
   main {
     flex: 1 0 auto;
 }

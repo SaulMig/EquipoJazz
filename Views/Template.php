@@ -25,7 +25,7 @@ class Template
             <title>Registro de Congreso</title>
 
             <nav >
-                <div class="nav-wrapper #fafafa grey lighten-5 ">
+                <div class="nav-wrapper #bdbdbd grey lighten-1 " id="barra">
                     <img responsive-img src="<?php echo URL?>/Public/imagen/logo.png"width="12%"  align="left">
                     <img responsive-img src="<?php echo URL?>/Public/imagen/logoMetropolitano.png"width="13%" align="right">
                     <a href="#" class="brand-logo" src="logo.png"></a>
@@ -34,12 +34,15 @@ class Template
         </head>
         
 
-        <main class="contenedor">
+        <main class="container">
         <div class="row">
             <div class="col offset-l3 l9 m12 s12">
+
+            </div>
+        </div>
         </main>
-            <footer class="page-footer">
-                      <div class="footer-copyright">
+            <footer class="page-footer #bdbdbd grey lighten-1">
+                      <div class="footer-copyright #bdbdbd grey lighten-1">
                             <div class="container">
                             <a class="grey-text text-lighten-4 center" href="#!">More Links   |</a>
                             <a class="grey-text text-lighten-4 center" href="#!">A   |</a>
