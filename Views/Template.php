@@ -57,6 +57,7 @@ class Template
                         </div>
                     </div>
                 </form>
+            </div>
 
                     <div class="row">
                         <form class="col s12">
@@ -118,7 +119,7 @@ class Template
                                                 </form>
                                             </div>
                                                 <form>
-            </div>
+
                                                     <div class="row">
                                                         <form class="col s12">
                                                             <div class="row">
