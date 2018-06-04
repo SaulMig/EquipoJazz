@@ -9,7 +9,7 @@
 namespace AppData\Controller;
 
 
-class clientesController
+class personasController
 {
     private $personas;
     private $congresos;
