@@ -22,7 +22,7 @@ class Template
             <script type="text/javascript" src="<?php echo URL?>/Public/js/plugins/jquery-1.11.2.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
-            <title>Inicio</title>
+            <title>Registro de Congreso</title>
         <div id="modal_registro_congreso" class="modal center-align ">
             <div class="modal-content">
                 <div class="card-panel teal #00b8d4"><h4 align="center">Registro Nuevo Congreso</h4></div>
@@ -63,16 +63,11 @@ class Template
         
         <nav>
             <div class="nav-wrapper">
-                <img responsive-img src="<?php echo URL?>/logo.png"width="15%"  align="left">
-                <img responsive-img src="<?php echo URL?>/logoMetropolitano.png"width="15%" align="right">
+                <img responsive-img src="<?php echo URL?>/Public/imagen/logo.png"width="15%"  align="left">
+                <img responsive-img src="<?php echo URL?>/Public/imagen/logoMetropolitano.png"width="15%" align="right">
                 <a href="#" class="brand-logo" src="logo.png">Logo</a>
-
-
-
             </div>
-            <div>
 
-            </div>
         </nav>
 
         <main class="contenedor">
