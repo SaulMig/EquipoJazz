@@ -24,10 +24,10 @@ class Template
 
             <title>Registro de Congreso</title>
 
-            <nav>
-                <div class="nav-wrapper">
-                    <img responsive-img src="<?php echo URL?>/Public/imagen/logo.png"width="15%"  align="left">
-                    <img responsive-img src="<?php echo URL?>/Public/imagen/logoMetropolitano.png"width="15%" align="right">
+            <nav >
+                <div class="nav-wrapper #fafafa grey lighten-5 ">
+                    <img responsive-img src="<?php echo URL?>/Public/imagen/logo.png"width="12%"  align="left">
+                    <img responsive-img src="<?php echo URL?>/Public/imagen/logoMetropolitano.png"width="13%" align="right">
                     <a href="#" class="brand-logo" src="logo.png"></a>
                 </div>
             </nav>
