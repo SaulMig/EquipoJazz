@@ -65,6 +65,8 @@ class Template
                                     <label for="Email">Emails</label>
                                 </div>
                             </div>
+                        </form>
+                    </div>
 
                             <div class="row">
                                 <form class="col s12">
@@ -78,6 +80,8 @@ class Template
                                             <label for="">especialidad</label>
                                         </div>
                                     </div>
+                                </form>
+                            </div>
 
                                     <div class="row">
                                         <form class="col s12">
@@ -91,6 +95,8 @@ class Template
                                                     <label for="titulaciom">año de titulacion</label>
                                                 </div>
                                             </div>
+                                        </form>
+                                    </div>
 
                                             <div class="row">
                                                 <form class="col s12">
@@ -104,6 +110,8 @@ class Template
                                                             <label for="codigo">codigo minsa</label>
                                                         </div>
                                                     </div>
+                                                </form>
+                                            </div>
 
                                                     <div class="row">
                                                         <form class="col s12">
@@ -117,6 +125,8 @@ class Template
                                                                     <label for="codigo">año de estudio</label>
                                                                 </div>
                                                             </div>
+                                                        </form>
+                                                    </div>
 
         </main>
 
