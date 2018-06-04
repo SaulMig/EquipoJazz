@@ -151,12 +151,20 @@ class Template
                                                                             <label for="test4">Curso de Insulinoterapía</label>
                                                                         </p>
                                                                     </div>
+                                                                    <br>
+                                                                    <div class="input-field col s12">
+                                                                        <label>|Pre-congreso| 24 de Septiembre |</label>
+                                                                    </div>
                                                                     <div class="input-field col s6">
                                                                         <p><br><br>
                                                                             <input type="checkbox" id="test5" />
                                                                             <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
                                                                         </p>
                                                                     </div>
+                                                                </div>
+                                                                <br>
+                                                                <div class="input-field col s12">
+                                                                    <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
                                                                 </div>
                                                                 <div>
                                                                     <br>
@@ -182,15 +190,23 @@ class Template
                                                                     <br><p>
                                                                         <br>
                                                                         <input type="checkbox" id="test8" />
-                                                                        <label for="test8">Actualización de enfermedad<br>
-                                                                        cardiovascular, Coordinador<br>
-                                                                        Dr. Daniel Rivas B.</label>
+                                                                        <label for="test8">Cirugía, Coordinador<br>
+                                                                        Dr. Milron Mairena</label>
                                                                     </p>
                                                                 </div>
                                                                 <div class="input-field col s6">
                                                                     <p><br><br>
                                                                         <input type="checkbox" id="test9" />
-                                                                        <label for="test9"></label>
+                                                                        <label for="test9">Actualización de enfermedad<br>
+                                                                            cardiovascular, Coordinador<br>
+                                                                            Dr. Daniel Rivas B.</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="input-field col s6">
+                                                                    <p><br><br>
+                                                                        <input type="checkbox" id="test10" />
+                                                                        <label for="test10">Gineco-Obstetricia, Coordinador<br>
+                                                                            Dr. Juan J. Lugo</label>
                                                                     </p>
                                                                 </div>
                                                             </div>
