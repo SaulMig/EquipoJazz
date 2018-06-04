@@ -40,6 +40,9 @@ class Template
 
             </div>
         </div>
+            <br>
+            <br>
+            <h4>| Formulario de inscripción |</h4>
             <div class="row">
                 <form class="col s12">
                     <div class="row">
