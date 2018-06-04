@@ -67,7 +67,7 @@ class Template
             <div class="nav-wrapper">
                 <img responsive-img src="<?php echo URL?>/Public/imagen/logo.png"width="15%"  align="left">
                 <img responsive-img src="<?php echo URL?>/Public/imagen/logoMetropolitano.png"width="15%" align="right">
-                <a href="#" class="brand-logo" src="logo.png"></a>
+                <a href="#" class="brand-logo" src="logo.png">Logo</a>
             </div>
 
         </nav>
