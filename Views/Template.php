@@ -1,7 +1,7 @@
 <?php
 namespace Views;
 
-use function Sodium\crypto_box_keypair_from_secretkey_and_publickey;
+//use function Sodium\crypto_box_keypair_from_secretkey_and_publickey;
 
 new Template();
 class Template
@@ -40,6 +40,84 @@ class Template
 
             </div>
         </div>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="primer apellido" type="text" class="validate">
+                            <label for="first_name">primer apellido</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">telefono</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="Placeholder" id="segundo apellido" type="text" class="validate">
+                                    <label for="first_name">segundo apellido</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="Email" type="text" class="validate">
+                                    <label for="Email">Emails</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s6">
+                                            <input placeholder="Placeholder" id="nombre" type="text" class="validate">
+                                            <label for="">segundo nombre</label>
+                                        </div>
+                                        <div class="input-field col s6">
+                                            <input id="especialidad" type="text" class="validate">
+                                            <label for="">especialidad</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <form class="col s12">
+                                            <div class="row">
+                                                <div class="input-field col s6">
+                                                    <input placeholder="Placeholder" id="No de Celula" type="text" class="validate">
+                                                    <label for="">No de Celula</label>
+                                                </div>
+                                                <div class="input-field col s6">
+                                                    <input id="año de titulacion" type="text" class="validate">
+                                                    <label for="titulaciom">año de titulacion</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <form class="col s12">
+                                                    <div class="row">
+                                                        <div class="input-field col s6">
+                                                            <input placeholder="Placeholder" id="" type="text" class="validate">
+                                                            <label for="">Direccion</label>
+                                                        </div>
+                                                        <div class="input-field col s6">
+                                                            <input id="codigo minsa" type="text" class="validate">
+                                                            <label for="codigo">codigo minsa</label>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <form class="col s12">
+                                                            <div class="row">
+                                                                <div class="input-field col s6">
+                                                                    <input placeholder="Placeholder" id="" type="text" class="validate">
+                                                                    <label for="">ciudad</label>
+                                                                </div>
+                                                                <div class="input-field col s6">
+                                                                    <input id="año de estudio" type="text" class="validate">
+                                                                    <label for="codigo">año de estudio</label>
+                                                                </div>
+                                                            </div>
+
         </main>
             <footer class="page-footer #bdbdbd grey lighten-1">
                       <div class="footer-copyright #bdbdbd grey lighten-1">
