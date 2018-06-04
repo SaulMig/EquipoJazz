@@ -25,7 +25,7 @@ class Template
             <title>Registro de Congreso</title>
 
             <nav >
-                <div class="nav-wrapper #fafafa grey lighten-5 ">
+                <div class="nav-wrapper #bdbdbd grey lighten-1 " id="barra">
                     <img responsive-img src="<?php echo URL?>/Public/imagen/logo.png"width="12%"  align="left">
                     <img responsive-img src="<?php echo URL?>/Public/imagen/logoMetropolitano.png"width="13%" align="right">
                     <a href="#" class="brand-logo" src="logo.png"></a>
@@ -34,17 +34,24 @@ class Template
         </head>
         
 
-        <main class="contenedor">
+        <main class="container">
         <div class="row">
             <div class="col offset-l3 l9 m12 s12">
+
+            </div>
+        </div>
         </main>
-            <footer class="page-footer">
-                <div class="container">
-                        <div class="col l1">
-                            <h3 class="white-text">Informacion || PBX: 2255 - 6900 || www.metropolitano.com.ni</h3>
-                        </div>
-                </div>
-                      <div class="footer-copyright">
+
+
+
+            <footer class="page-footer #bdbdbd grey lighten-1">
+                      <div class="footer-copyright #bdbdbd grey lighten-1">
+                          <div class="container">
+                              <div class="col l1">
+                                  <h3 class="white-text">Informacion || PBX: 2255 - 6900 || www.metropolitano.com.ni</h3>
+                              </div>
+                          </div>
+
                             <div class="container">
                                 <h6 class="left">
                                      Dirección Médica  Ext. 8-4109<br>
