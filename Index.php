@@ -2,7 +2,7 @@
     define('DS',DIRECTORY_SEPARATOR);
     define('ROOT',realpath(dirname(__FILE__)).DS);
 
-    define('URL',"http://localhost/Prueba_ISC601/Equipo_Jaz/");
+    define('URL',"http://localhost/EquipoJazz/");
 
     require_once ("AppData/Config/Autoload.php");
     \AppData\Config\Autoload::run();
