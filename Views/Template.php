@@ -44,7 +44,7 @@ class Template
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s6">
-                            <input placeholder="Placeholder" id="primer apellido" type="text" class="validate">
+                            <input placeholder="" id="primer apellido" type="text" class="validate">
                             <label for="first_name">primer apellido</label>
                         </div>
                         <div class="input-field col s6">
@@ -57,7 +57,7 @@ class Template
                         <form class="col s12">
                             <div class="row">
                                 <div class="input-field col s6">
-                                    <input placeholder="Placeholder" id="segundo apellido" type="text" class="validate">
+                                    <input placeholder="" id="segundo apellido" type="text" class="validate">
                                     <label for="first_name">segundo apellido</label>
                                 </div>
                                 <div class="input-field col s6">
@@ -72,7 +72,7 @@ class Template
                                 <form class="col s12">
                                     <div class="row">
                                         <div class="input-field col s6">
-                                            <input placeholder="Placeholder" id="nombre" type="text" class="validate">
+                                            <input placeholder="" id="nombre" type="text" class="validate">
                                             <label for="">segundo nombre</label>
                                         </div>
                                         <div class="input-field col s6">
@@ -87,7 +87,7 @@ class Template
                                         <form class="col s12">
                                             <div class="row">
                                                 <div class="input-field col s6">
-                                                    <input placeholder="Placeholder" id="No de Celula" type="text" class="validate">
+                                                    <input placeholder="" id="No de Celula" type="text" class="validate">
                                                     <label for="">No de Celula</label>
                                                 </div>
                                                 <div class="input-field col s6">
@@ -102,7 +102,7 @@ class Template
                                                 <form class="col s12">
                                                     <div class="row">
                                                         <div class="input-field col s6">
-                                                            <input placeholder="Placeholder" id="" type="text" class="validate">
+                                                            <input placeholder="" id="" type="text" class="validate">
                                                             <label for="">Direccion</label>
                                                         </div>
                                                         <div class="input-field col s6">
@@ -117,7 +117,7 @@ class Template
                                                         <form class="col s12">
                                                             <div class="row">
                                                                 <div class="input-field col s6">
-                                                                    <input placeholder="Placeholder" id="" type="text" class="validate">
+                                                                    <input placeholder="" id="" type="text" class="validate">
                                                                     <label for="">ciudad</label>
                                                                 </div>
                                                                 <div class="input-field col s6">
