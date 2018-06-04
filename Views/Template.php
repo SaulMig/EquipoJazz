@@ -49,75 +49,175 @@ class Template
                         </div>
                         <div class="input-field col s6">
                             <input id="last_name" type="text" class="validate">
-                            <label for="last_name">telefono</label>
+                            <label for="last_name">Telefono</label>
                         </div>
                     </div>
+                </form>
 
                     <div class="row">
                         <form class="col s12">
                             <div class="row">
                                 <div class="input-field col s6">
-                                    <input placeholder="Placeholder" id="segundo apellido" type="text" class="validate">
-                                    <label for="first_name">segundo apellido</label>
+                                    <input placeholder="" id="segundo apellido" type="text" class="validate">
+                                    <label for="first_name">Segundo apellido</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <input id="Email" type="text" class="validate">
-                                    <label for="Email">Emails</label>
+                                    <label for="Email">Email</label>
                                 </div>
                             </div>
+                        </form>
+                    </div>
 
                             <div class="row">
                                 <form class="col s12">
                                     <div class="row">
                                         <div class="input-field col s6">
-                                            <input placeholder="Placeholder" id="nombre" type="text" class="validate">
-                                            <label for="">segundo nombre</label>
+                                            <input placeholder="" id="nombre" type="text" class="validate">
+                                            <label for="">Segundo nombre</label>
                                         </div>
                                         <div class="input-field col s6">
                                             <input id="especialidad" type="text" class="validate">
-                                            <label for="">especialidad</label>
+                                            <label for="">Especialidad</label>
                                         </div>
                                     </div>
+                                </form>
+                            </div>
 
                                     <div class="row">
                                         <form class="col s12">
                                             <div class="row">
                                                 <div class="input-field col s6">
-                                                    <input placeholder="Placeholder" id="No de Celula" type="text" class="validate">
+                                                    <input placeholder="" id="No de Celula" type="text" class="validate">
                                                     <label for="">No de Celula</label>
                                                 </div>
                                                 <div class="input-field col s6">
                                                     <input id="año de titulacion" type="text" class="validate">
-                                                    <label for="titulaciom">año de titulacion</label>
+                                                    <label for="titulaciom">Año de titulacion</label>
                                                 </div>
                                             </div>
+                                        </form>
+                                    </div>
 
                                             <div class="row">
                                                 <form class="col s12">
                                                     <div class="row">
                                                         <div class="input-field col s6">
-                                                            <input placeholder="Placeholder" id="" type="text" class="validate">
+                                                            <input placeholder="" id="" type="text" class="validate">
                                                             <label for="">Direccion</label>
                                                         </div>
                                                         <div class="input-field col s6">
                                                             <input id="codigo minsa" type="text" class="validate">
-                                                            <label for="codigo">codigo minsa</label>
+                                                            <label for="codigo">Codigo minsa</label>
                                                         </div>
                                                     </div>
+                                                </form>
+                                            </div>
+            </div>
 
                                                     <div class="row">
                                                         <form class="col s12">
                                                             <div class="row">
                                                                 <div class="input-field col s6">
-                                                                    <input placeholder="Placeholder" id="" type="text" class="validate">
-                                                                    <label for="">ciudad</label>
+                                                                    <input placeholder="" id="" type="text" class="validate">
+                                                                    <label for="">Ciudad</label>
                                                                 </div>
                                                                 <div class="input-field col s6">
                                                                     <input id="año de estudio" type="text" class="validate">
-                                                                    <label for="codigo">año de estudio</label>
+                                                                    <label for="codigo">Año de estudio</label>
+                                                                </div>
+                                                                <div class="input-field col s4">
+                                                                    <p>
+                                                                        <input type="checkbox" id="test1" />
+                                                                        <label for="test1">Hospital</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="input-field col s4">
+                                                                    <p>
+                                                                        <input type="checkbox" id="test2" />
+                                                                        <label for="test2">Institución</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="input-field col s4">
+                                                                    <p>
+                                                                        <input type="checkbox" id="test3" />
+                                                                        <label for="test3">Estudiantes</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div >
+                                                                    <br>
+                                                                    <div class="input-field col s6">
+                                                                        <br><p>
+                                                                            <br>
+                                                                            <input type="checkbox" id="test4" />
+                                                                            <label for="test4">Curso de Insulinoterapía</label>
+                                                                        </p>
+                                                                    </div>
+                                                                    <br>
+                                                                    <div class="input-field col s12">
+                                                                        <label>|Pre-congreso| 24 de Septiembre |</label>
+                                                                    </div>
+                                                                    <div class="input-field col s6">
+                                                                        <p><br><br>
+                                                                            <input type="checkbox" id="test5" />
+                                                                            <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                                                                <div class="input-field col s12">
+                                                                    <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
+                                                                </div>
+                                                                <div>
+                                                                    <br>
+                                                                    <div class="input-field col s6">
+                                                                        <br><p>
+                                                                            <br>
+                                                                            <input type="checkbox" id="test6" />
+                                                                            <label for="test6">Medicina Interna-Medicina del <br>
+                                                                            paciente crítico, Coordinador<br>
+                                                                            Dr. Guillermo Porras</label>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="input-field col s6">
+                                                                        <p><br><br>
+                                                                            <input type="checkbox" id="test7" />
+                                                                            <label for="test7">Pediatría, Coordinador<br>
+                                                                            Dr. Fulgencio Báez</label>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                                                                <div class="input-field col s6">
+                                                                    <br><p>
+                                                                        <br>
+                                                                        <input type="checkbox" id="test8" />
+                                                                        <label for="test8">Cirugía, Coordinador<br>
+                                                                        Dr. Milron Mairena</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="input-field col s6">
+                                                                    <p><br><br>
+                                                                        <input type="checkbox" id="test9" />
+                                                                        <label for="test9">Actualización de enfermedad<br>
+                                                                            cardiovascular, Coordinador<br>
+                                                                            Dr. Daniel Rivas B.</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="input-field col s6">
+                                                                    <p><br><br>
+                                                                        <input type="checkbox" id="test10" />
+                                                                        <label for="test10">Gineco-Obstetricia, Coordinador<br>
+                                                                            Dr. Juan J. Lugo</label>
+                                                                    </p>
                                                                 </div>
                                                             </div>
-        <script type="text/javascript"> </script>
+                                                                </div>
+
+                                                            </div>
+                                                        </form>
+                                                    </div>
+
         </main>
             <footer class="page-footer #bdbdbd grey lighten-1">
                       <div class="footer-copyright #bdbdbd grey lighten-1">
