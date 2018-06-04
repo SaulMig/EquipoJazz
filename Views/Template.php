@@ -45,21 +45,22 @@ class Template
                     <div class="row">
 
                         <div class="input-field col s6">
-                            <input placeholder="" id="primer apellido" type="text" class="validate">
-                            <label for="first_name">Primer apellido</label>
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Primer apellido</label>
                         </div>
                         <div class="input-field col s6">
                             <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Telefono</label>
+                            <label for="last_name">Telefono de contactos</label>
                         </div>
                     </div>
+                </form>
 
                     <div class="row">
                         <form class="col s12">
                             <div class="row">
                                 <div class="input-field col s6">
-                                    <input placeholder="" id="segundo apellido" type="text" class="validate">
-                                    <label for="first_name">Segundo apellido</label>
+                                    <input id="second_name" type="text" class="validate">
+                                    <label for="second_name">Segundo apellido</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <input id="Email" type="text" class="validate">
@@ -73,8 +74,8 @@ class Template
                                 <form class="col s12">
                                     <div class="row">
                                         <div class="input-field col s6">
-                                            <input placeholder="" id="nombre" type="text" class="validate">
-                                            <label for="">Segundo nombre</label>
+                                            <input id="nombres" type="text" class="validate">
+                                            <label for="nombres">Nombres</label>
                                         </div>
                                         <div class="input-field col s6">
                                             <input id="especialidad" type="text" class="validate">
@@ -88,8 +89,8 @@ class Template
                                         <form class="col s12">
                                             <div class="row">
                                                 <div class="input-field col s6">
-                                                    <input placeholder="" id="No de Celula" type="text" class="validate">
-                                                    <label for="">No de Celula</label>
+                                                    <input id="numero_cedula" type="text" class="validate">
+                                                    <label for="numero_cedula">No de Cedula</label>
                                                 </div>
                                                 <div class="input-field col s6">
                                                     <input id="año de titulacion" type="text" class="validate">
@@ -103,8 +104,8 @@ class Template
                                                 <form class="col s12">
                                                     <div class="row">
                                                         <div class="input-field col s6">
-                                                            <input placeholder="" id="" type="text" class="validate">
-                                                            <label for="">Direccion</label>
+                                                            <input id="direccion" type="text" class="validate">
+                                                            <label for="direccion">Direccion</label>
                                                         </div>
                                                         <div class="input-field col s6">
                                                             <input id="codigo minsa" type="text" class="validate">
@@ -114,12 +115,13 @@ class Template
                                                 </form>
                                             </div>
                                                 <form>
+            </div>
                                                     <div class="row">
                                                         <form class="col s12">
                                                             <div class="row">
                                                                 <div class="input-field col s6">
-                                                                    <input placeholder="" id="" type="text" class="validate">
-                                                                    <label for="">Ciudad</label>
+                                                                    <input id="ciudad" type="text" class="validate">
+                                                                    <label for="ciudad">Ciudad</label>
                                                                 </div>
                                                                 <div class="input-field col s6">
                                                                     <input id="año de estudio" type="text" class="validate">
@@ -220,11 +222,7 @@ class Template
                                                         </form>
                                                     </div>
 
-
         </main>
-
-
-
             <footer class="page-footer #bdbdbd grey lighten-1">
                       <div class="footer-copyright #bdbdbd grey lighten-1">
                           <div class="container">
