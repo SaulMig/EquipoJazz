@@ -47,7 +47,10 @@ class Personas
     }
 
     function add(){
-        $sql="insert into personas VALUES ('0','{$this->ap_persona}','{$this->am_persona}','{$this->nombre_per}',{$this->no_cedula},{$this->direccion},{$this->ciudad},{$this->telefono},{$this->email},{$this->especialidad},{$this->ano_titulacion},{$this->codigo_minsa},{$this->ano_estudio},{$this->estado},{$this->id_congreso},{$this->id_medico})";
+        $sql="insert into personas VALUES ('0','{$this->ap_persona}','{$this->am_persona}','{$this->nombre_per}',
+{$this->no_cedula},{$this->direccion},{$this->ciudad},{$this->telefono},{$this->email},{$this->especialidad},
+{$this->ano_titulacion},{$this->codigo_minsa},{$this->ano_estudio},{$this->estado},{$this->id_congreso},
+{$this->id_medico})";
         $this->conexion->QuerySimple($sql);
     }
 
@@ -77,7 +80,7 @@ class Personas
                no_cedula='{$this->no_cedula}', direccion='{$this->direccion}', direccion='{$this->direccion}',
                ciudad='{$this->ciudad}', telefono='{$this->telefono}', email='{$this->email}', especialidad='{$this->especialidad}'
                , ano_titulacion='{$this->ano_titulacion}', codigo_minsa='{$this->codigo_minsa}', ano_estudio='{$this->ano_estudio}' 
-               , estado='{$this->estado}' where id_persona='{$this->id_cliente}'";
+               , estado='{$this->estado}', id_congreso='{$this->id_congreso}', id_medico='{$this->id_medico}' where id_persona='{$this->id_persona}'";
         $this->conexion->QuerySimple($sql);
     }
 }
