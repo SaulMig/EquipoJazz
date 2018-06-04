@@ -84,8 +84,8 @@ class personasController
             $this->personas->set('id_congreso',$_POST["id_congreso"]);
             $this->personas->set('id_medico',$_POST["id_medico"]);
             
-            $this->clientes->update();
-            $datos=$this->clientes->getAll();
+            $this->personas->update();
+            $datos=$this->personas->getAll();
             return $datos;
         }
     }
