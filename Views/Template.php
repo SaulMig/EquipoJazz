@@ -44,8 +44,8 @@ class Template
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s6">
-                            <input placeholder="Placeholder" id="primer apellido" type="text" class="validate">
-                            <label for="first_name">primer apellido</label>
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
                         </div>
                         <div class="input-field col s6">
                             <input id="last_name" type="text" class="validate">
@@ -117,11 +117,8 @@ class Template
                                                                     <label for="codigo">año de estudio</label>
                                                                 </div>
                                                             </div>
-
+        <script type="text/javascript"> </script>
         </main>
-
-
-
             <footer class="page-footer #bdbdbd grey lighten-1">
                       <div class="footer-copyright #bdbdbd grey lighten-1">
                           <div class="container">
