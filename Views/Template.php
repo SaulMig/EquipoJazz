@@ -116,7 +116,80 @@ class Template
                                                                     <input id="año de estudio" type="text" class="validate">
                                                                     <label for="codigo">año de estudio</label>
                                                                 </div>
+                                                                <div class="input-field col s4">
+                                                                    <p>
+                                                                        <input type="checkbox" id="test1" />
+                                                                        <label for="test1">Hospital</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="input-field col s4">
+                                                                    <p>
+                                                                        <input type="checkbox" id="test2" />
+                                                                        <label for="test2">Institución</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="input-field col s4">
+                                                                    <p>
+                                                                        <input type="checkbox" id="test3" />
+                                                                        <label for="test3">Estudiantes</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div >
+                                                                    <br>
+                                                                    <div class="input-field col s6">
+                                                                        <br><p>
+                                                                            <br>
+                                                                            <input type="checkbox" id="test4" />
+                                                                            <label for="test4">Curso de Insulinoterapía</label>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="input-field col s6">
+                                                                        <p><br><br>
+                                                                            <input type="checkbox" id="test5" />
+                                                                            <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <br>
+                                                                    <div class="input-field col s6">
+                                                                        <br><p>
+                                                                            <br>
+                                                                            <input type="checkbox" id="test6" />
+                                                                            <label for="test6">Medicina Interna-Medicina del <br>
+                                                                            paciente crítico, Coordinador<br>
+                                                                            Dr. Guillermo Porras</label>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="input-field col s6">
+                                                                        <p><br><br>
+                                                                            <input type="checkbox" id="test7" />
+                                                                            <label for="test7">Pediatría, Coordinador<br>
+                                                                            Dr. Fulgencio Báez</label>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                                                                <div class="input-field col s6">
+                                                                    <br><p>
+                                                                        <br>
+                                                                        <input type="checkbox" id="test8" />
+                                                                        <label for="test8">Actualización de enfermedad<br>
+                                                                        cardiovascular, Coordinador<br>
+                                                                        Dr. Daniel Rivas B.</label>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="input-field col s6">
+                                                                    <p><br><br>
+                                                                        <input type="checkbox" id="test9" />
+                                                                        <label for="test9"></label>
+                                                                    </p>
+                                                                </div>
                                                             </div>
+                                                                </div>
+
+                                                            </div>
+
 
         </main>
 
