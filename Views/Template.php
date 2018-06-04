@@ -45,11 +45,11 @@ class Template
                     <div class="row">
                         <div class="input-field col s6">
                             <input placeholder="" id="primer apellido" type="text" class="validate">
-                            <label for="first_name">primer apellido</label>
+                            <label for="first_name">Primer apellido</label>
                         </div>
                         <div class="input-field col s6">
                             <input id="last_name" type="text" class="validate">
-                            <label for="last_name">telefono</label>
+                            <label for="last_name">Telefono</label>
                         </div>
                     </div>
 
@@ -58,11 +58,11 @@ class Template
                             <div class="row">
                                 <div class="input-field col s6">
                                     <input placeholder="" id="segundo apellido" type="text" class="validate">
-                                    <label for="first_name">segundo apellido</label>
+                                    <label for="first_name">Segundo apellido</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <input id="Email" type="text" class="validate">
-                                    <label for="Email">Emails</label>
+                                    <label for="Email">Email</label>
                                 </div>
                             </div>
                         </form>
@@ -73,11 +73,11 @@ class Template
                                     <div class="row">
                                         <div class="input-field col s6">
                                             <input placeholder="" id="nombre" type="text" class="validate">
-                                            <label for="">segundo nombre</label>
+                                            <label for="">Segundo nombre</label>
                                         </div>
                                         <div class="input-field col s6">
                                             <input id="especialidad" type="text" class="validate">
-                                            <label for="">especialidad</label>
+                                            <label for="">Especialidad</label>
                                         </div>
                                     </div>
                                 </form>
@@ -92,7 +92,7 @@ class Template
                                                 </div>
                                                 <div class="input-field col s6">
                                                     <input id="año de titulacion" type="text" class="validate">
-                                                    <label for="titulaciom">año de titulacion</label>
+                                                    <label for="titulaciom">Año de titulacion</label>
                                                 </div>
                                             </div>
                                         </form>
@@ -107,7 +107,7 @@ class Template
                                                         </div>
                                                         <div class="input-field col s6">
                                                             <input id="codigo minsa" type="text" class="validate">
-                                                            <label for="codigo">codigo minsa</label>
+                                                            <label for="codigo">Codigo minsa</label>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -118,11 +118,11 @@ class Template
                                                             <div class="row">
                                                                 <div class="input-field col s6">
                                                                     <input placeholder="" id="" type="text" class="validate">
-                                                                    <label for="">ciudad</label>
+                                                                    <label for="">Ciudad</label>
                                                                 </div>
                                                                 <div class="input-field col s6">
                                                                     <input id="año de estudio" type="text" class="validate">
-                                                                    <label for="codigo">año de estudio</label>
+                                                                    <label for="codigo">Año de estudio</label>
                                                                 </div>
                                                             </div>
                                                         </form>
