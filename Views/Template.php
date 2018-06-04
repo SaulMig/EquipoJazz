@@ -39,11 +39,21 @@ class Template
             <div class="col offset-l3 l9 m12 s12">
         </main>
             <footer class="page-footer">
+                <div class="container">
+                        <div class="col l1">
+                            <h3 class="white-text">Informacion || PBX: 2255 - 6900 || www.metropolitano.com.ni</h3>
+                        </div>
+                </div>
                       <div class="footer-copyright">
                             <div class="container">
-                            <a class="grey-text text-lighten-4 center" href="#!">More Links   |</a>
-                            <a class="grey-text text-lighten-4 center" href="#!">A   |</a>
-                            <a class="grey-text text-lighten-4 center" href="#!">More Links</a>
+                                <h6 class="left">
+                                     Dirección Médica  Ext. 8-4109<br>
+                                    mgrant@metropolitano.comni
+                                </h6>
+                                <h6 class="right">
+                                    Mercadeo Ext. 8-6094 Cel: 8802 - 9868<br>
+                                    jhernandez@mtreopolitano.com.ni
+                                </h6>
                             </div>
                       </div>
             </footer>
