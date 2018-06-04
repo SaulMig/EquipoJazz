@@ -11,7 +11,7 @@ namespace AppData\Model;
 
 class Personas
 {
-    private $tabla='clientes';
+    private $tabla='personas';
     private $id_persona;
     private $ap_persona;
     private $am_persona;
