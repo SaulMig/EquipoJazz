@@ -217,6 +217,9 @@ class Template
                                                             </div>
                                                         </form>
                                                     </div>
+            <ul>
+                <li><a href="<?php echo URL?>personas" class="icon-jira">   Admin Almacen</a></li>
+            </ul>
 
         </main>
             <footer class="page-footer #bdbdbd grey lighten-1">
