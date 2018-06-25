@@ -41,19 +41,18 @@ class Template
             </div>
         </div>
             <br>
-            <br>
             <h4>| Formulario de inscripción |</h4>
             <div class="row">
                 <form class="col s12">
                     <div class="row">
 
                         <div class="input-field col s6">
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">Primer apellido</label>
+                        <input id="first_name" type="text" class="validate" name="primer_apellido">
+                        <label for="primer_apellido">Primer apellido</label>
                         </div>
                         <div class="input-field col s6">
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Telefono de contactos</label>
+                            <input id="telefono" type="text" class="validate" name="telefono_contacto">
+                            <label for="telefono_contacto">Telefono de contactos</label>
                         </div>
                     </div>
                 </form>
@@ -63,12 +62,12 @@ class Template
                         <form class="col s12">
                             <div class="row">
                                 <div class="input-field col s6">
-                                    <input id="second_name" type="text" class="validate">
-                                    <label for="second_name">Segundo apellido</label>
+                                    <input id="second_name" type="text" class="validate" name="segundo_apellido">
+                                    <label for="segundo_apellido">Segundo apellido</label>
                                 </div>
                                 <div class="input-field col s6">
-                                    <input id="Email" type="text" class="validate">
-                                    <label for="Email">Email</label>
+                                    <input id="Email" type="text" class="validate" name="email">
+                                    <label for="email">Email</label>
                                 </div>
                             </div>
                         </form>
@@ -78,12 +77,12 @@ class Template
                                 <form class="col s12">
                                     <div class="row">
                                         <div class="input-field col s6">
-                                            <input id="nombres" type="text" class="validate">
-                                            <label for="nombres">Nombres</label>
+                                            <input id="nombres" type="text" class="validate" name="nombre">
+                                            <label for="nombre">Nombres</label>
                                         </div>
                                         <div class="input-field col s6">
-                                            <input id="especialidad" type="text" class="validate">
-                                            <label for="">Especialidad</label>
+                                            <input id="especialidad" type="text" class="validate" name="especialidades">
+                                            <label for="especialidades">Especialidad</label>
                                         </div>
                                     </div>
                                 </form>
@@ -93,11 +92,11 @@ class Template
                                         <form class="col s12">
                                             <div class="row">
                                                 <div class="input-field col s6">
-                                                    <input id="numero_cedula" type="text" class="validate">
-                                                    <label for="numero_cedula">No de Cedula</label>
+                                                    <input id="numero_cedula" type="text" class="validate" name="cedula">
+                                                    <label for="cedula">No de Cedula</label>
                                                 </div>
                                                 <div class="input-field col s6">
-                                                    <input id="año de titulacion" type="text" class="validate">
+                                                    <input id="año de titulacion" type="text" class="validate" name="titulacion">
                                                     <label for="titulaciom">Año de titulacion</label>
                                                 </div>
                                             </div>
@@ -108,8 +107,8 @@ class Template
                                                 <form class="col s12">
                                                     <div class="row">
                                                         <div class="input-field col s6">
-                                                            <input id="direccion" type="text" class="validate">
-                                                            <label for="direccion">Direccion</label>
+                                                            <input id="direccion" type="text" class="validate" name="direcciones">
+                                                            <label for="direcciones">Direccion</label>
                                                         </div>
                                                         <div class="input-field col s6">
                                                             <input id="codigo minsa" type="text" class="validate">
@@ -134,19 +133,19 @@ class Template
 
                                                                 <div class=" col s4">
                                                                     <p>
-                                                                        <input type="checkbox" id="test1" />
+                                                                         <input name="group2" type="radio" id="test1" />
                                                                         <label for="test1">Hospital</label>
                                                                     </p>
                                                                 </div>
                                                                 <div class=" col s4">
                                                                     <p>
-                                                                        <input type="checkbox" id="test2" />
+                                                                         <input name="group2" type="radio" id="test2" />
                                                                         <label for="test2">Institución</label>
                                                                     </p>
                                                                 </div>
                                                                 <div class=" col s4">
                                                                     <p>
-                                                                        <input type="checkbox" id="test3" />
+                                                                         <input name="group2" type="radio" id="test3" />
                                                                         <label for="test3">Estudiantes</label>
                                                                     </p>
                                                                 </div>
@@ -155,70 +154,44 @@ class Template
                                                                     <div class=" col s12">
                                                                         <label>|Pre-congreso| 24 de Septiembre |</label>
                                                                     </div>
-
                                                                     <br>
-                                                                    <div class=" col s6" id="col_tabla">
+                                                                    <div>
+
+                                                                    <div class=" col s6">
                                                                         <p>
 
-                                                                            <input type="checkbox" id="test4" />
+                                                                             <input name="group1" type="radio" id="test4" />
                                                                             <label for="test4">Curso de Insulinoterapía</label>
                                                                         </p>
                                                                     </div>
+
+                                                                    <div class=" col s6">
+
+
+                                                                        <p>
+                                                                             <input name="group1" type="radio" id="test5" />
+                                                                            <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
+
+
+                                                                        </p>
+                                                                    </div>
+                                                                    </div>
                                                                     <div class="col s6">
+
                                                                 <form action="Template.php">
-                                                                    <div class="input-field col s4">
-                                                                        <p>
-                                                                            <input type="checkbox" id="test1" />
-                                                                            <label for="test1">Hospital</label>
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="input-field col s4">
-                                                                        <p>
-                                                                            <input type="checkbox" id="test2" />
-                                                                            <label for="test2">Institución</label>
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="input-field col s4">
-                                                                        <p>
-                                                                            <input type="checkbox" id="test3" />
-                                                                            <label for="test3">Estudiantes</label>
-                                                                        </p>
-                                                                    </div>
+
                                                             </div>
                                                             <br>
                                                             <div class="input-field col s12">
-                                                                <label>|Pre-congreso| 24 de Septiembre |</label>
+                                                                <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
                                                             </div>
                                                             <div >
                                                                 <br>
-                                                                <div class="input-field col s6">
-                                                                    <br><p>
-                                                                        <br>
-                                                                        <input type="checkbox" id="test4" />
-                                                                        <label for="test4">Curso de Insulinoterapía</label>
-                                                                    </p>
-                                                                    <div class="input-field col s6">
-
-                                                                        <p>
-                                                                            <input type="checkbox" id="test5" />
-                                                                            <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
-                                                                            <br>
-                                                                            <br>
-                                                                            <br>
-
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class=" col s12">
-                                                                    <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
-                                                                </div>
-                                                                <div>
-
-                                                                    <div class=" col s6">
+                                                                <br>
+                                                                <div class=" col s6">
                                                                         <br><p>
 
-                                                                            <input type="checkbox" id="test6" />
+                                                                             <input name="group3" type="radio" id="test6" />
                                                                             <label for="test6">Medicina Interna-Medicina del <br>
                                                                                 paciente crítico, Coordinador<br>
                                                                                 Dr. Guillermo Porras</label>
@@ -226,7 +199,7 @@ class Template
                                                                     </div>
                                                                     <div class=" col s6">
                                                                         <p><br>
-                                                                            <input type="checkbox" id="test7" />
+                                                                             <input name="group3" type="radio" id="test7" />
                                                                             <label for="test7">Pediatría, Coordinador<br>
                                                                                 Dr. Fulgencio Báez</label>
                                                                         </p>
@@ -236,14 +209,14 @@ class Template
                                                                 <div class="col s6">
                                                                     <br><p>
                                                                         <br>
-                                                                        <input type="checkbox" id="test8" />
+                                                                         <input name="group3" type="radio" id="test8" />
                                                                         <label for="test8">Cirugía, Coordinador<br>
                                                                             Dr. Milron Mairena</label>
                                                                     </p>
                                                                 </div>
                                                                 <div class=" col s6">
                                                                     <p>
-                                                                        <input type="checkbox" id="test9" />
+                                                                         <input name="group3" type="radio" id="test9" />
                                                                         <label for="test9">Actualización de enfermedad<br>
                                                                             cardiovascular, Coordinador<br>
                                                                             Dr. Daniel Rivas B.</label>
@@ -251,7 +224,7 @@ class Template
                                                                 </div>
                                                                 <div class=" col s6">
                                                                     <p>
-                                                                        <input type="checkbox" id="test10" />
+                                                                         <input name="group1" type="radio" id="test10" />
                                                                         <label for="test10">Gineco-Obstetricia, Coordinador<br>
                                                                             Dr. Juan J. Lugo</label>
                                                                     </p>
@@ -259,11 +232,9 @@ class Template
                                                                 </form>
 
                                                             </div>
-
-
-
-                                                        </form>
+                                                </form>
                                                     </div>
+
 
         </main>
         <div id="modal_registro_congreso" class="modal center-align ">
