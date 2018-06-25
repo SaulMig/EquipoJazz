@@ -94,4 +94,9 @@ class personasController
             return $datos;
         }
     }
+     public function print_pdf()
+    {
+        $datos=$this->personas->getAll();
+        return $datos;
+    }
 }

@@ -8,7 +8,7 @@
     <br>
     <h4>| Formulario de inscripción |</h4>
     <div class="row">
-        <form class="col s12">
+        <form class="col s12" id="Nombres_formulario">
             <div class="row">
 
                 <div class="input-field col s6">
@@ -98,55 +98,59 @@
 
                     <div class=" col s4">
                         <p>
-                            <input type="checkbox" id="test1" />
+                            <input name="group1" type="radio" id="test1" />
                             <label for="test1">Hospital</label>
                         </p>
                     </div>
                     <div class=" col s4">
                         <p>
-                            <input type="checkbox" id="test2" />
+                            <input name="group1" type="radio" id="test2" />
                             <label for="test2">Institución</label>
                         </p>
                     </div>
                     <div class=" col s4">
                         <p>
-                            <input type="checkbox" id="test3" />
+                            <input name="group1" type="radio" id="test3" />
                             <label for="test3">Estudiantes</label>
                         </p>
                     </div>
                     <div >
-
-                        <div class=" col s12">
-                            <label>|Pre-congreso| 24 de Septiembre |</label>
-                        </div>
-                        <br>
-                        <div>
-
-                            <div class=" col s6">
-                                <p>
-
-                                    <input type="checkbox" id="test4" />
-                                    <label for="test4">Curso de Insulinoterapía</label>
-                                </p>
-                            </div>
-                            <div class=" col s6">
-
-                                <p>
-                                    <input type="checkbox" id="test5" />
-                                    <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
-
-
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col s6">
-
-                            <form action="Template.php">
-
-                        </div>
-                        <br>
                         <div class="input-field col s12">
-                            <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
+                            <div class=" white-text col s5 background black">
+                                <h6>|Pre-congreso| 24 de Septiembre |</h6>
+                            </div>
+                            <div col s6>
+                                <a class="waves-effect waves-light btn"><i class="material-icons right">add</i> Registra Pre-congreso Medico</a>
+                            </div>
+                        </div>
+                            <br>
+                            <div>
+                                <div class=" col s6">
+                                    <p>
+                                        <input name="group2" type="radio" id="test4" />
+                                        <label for="test4">Curso de Insulinoterapía</label>
+                                    </p>
+                                </div>
+                                <div class=" col s6">
+                                    <p>
+                                        <input name="group2" type="radio" id="test5" />
+                                        <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
+                                     </p>
+                                </div>
+                            </div>
+                            <div class="col s6">
+                                <form action="Template.php">
+                            </div>
+                            <br>
+                            <div class="input-field col s12">
+                                <div class=" white-text col s5 background black">
+                                    <h6>|Congreso Médico| 25 y 26 de Septiembre |</h6>
+                                </div>
+                                <div col s6>
+                                    <a class="waves-effect waves-light btn"><i class="material-icons right">add</i> Registra Congreso Medico</a>
+                                </div>
+                            </div>
+
                         </div>
                         <br>
                         <br>
@@ -155,7 +159,7 @@
                             <div class=" col s6">
                                 <br><p>
 
-                                    <input type="checkbox" id="test6" />
+                                    <input name="group3" type="radio" id="test6" />
                                     <label for="test6">Medicina Interna-Medicina del <br>
                                         paciente crítico, Coordinador<br>
                                         Dr. Guillermo Porras</label>
@@ -163,7 +167,7 @@
                             </div>
                             <div class=" col s6">
                                 <p><br>
-                                    <input type="checkbox" id="test7" />
+                                    <input name="group3" type="radio" id="test7" />
                                     <label for="test7">Pediatría, Coordinador<br>
                                         Dr. Fulgencio Báez</label>
                                 </p>
@@ -173,14 +177,14 @@
                         <div class="col s6">
                             <br><p>
                                 <br>
-                                <input type="checkbox" id="test8" />
+                                <input name="group3" type="radio" id="test8" />
                                 <label for="test8">Cirugía, Coordinador<br>
                                     Dr. Milron Mairena</label>
                             </p>
                         </div>
                         <div class=" col s6">
                             <p>
-                                <input type="checkbox" id="test9" />
+                                <input name="group3" type="radio" id="test9" />
                                 <label for="test9">Actualización de enfermedad<br>
                                     cardiovascular, Coordinador<br>
                                     Dr. Daniel Rivas B.</label>
@@ -188,7 +192,7 @@
                         </div>
                         <div class=" col s6">
                             <p>
-                                <input type="checkbox" id="test10" />
+                                <input name="group3" type="radio" id="test10" />
                                 <label for="test10">Gineco-Obstetricia, Coordinador<br>
                                     Dr. Juan J. Lugo</label>
                             </p>
@@ -202,7 +206,9 @@
         </div>
     </form>
     </div>
-
+    <div class="center">
+        <a href="<?php echo URL?>personas/print_pdf" target="_blank" id="imprimir_pdf" class="btn blue accent-3 white-text tooltipped" data-position="bottom" data-delay="50" data-tooltip="Imprimir"><i class="material-icons">picture_as_pdf</i></a>
+    </div>
 
 </main>
 

@@ -40,7 +40,9 @@ class Template
                 </div>
             </nav>
 
+
         <main class="container">
+
         <?php
     }
     public static function footer()
