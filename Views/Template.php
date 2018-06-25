@@ -15,12 +15,19 @@ class Template
         <head>
             <meta charset="UTF-8">
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-            <link href="<?php echo URL?>/Public/css/style.min.css" type="text/css" rel="stylesheet">
-            <link href="<?php echo URL?>/Public/css/custom.min.css" type="text/css" rel="stylesheet">
-            <link rel="stylesheet" href="<?php echo URL?>/Public/css/style.css">
-            <script type="text/javascript" src="<?php echo URL?>/Public/js/plugins/jquery-1.11.2.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+            <link type="text/css" rel="stylesheet" href="<?php echo URL?>Public/css/materialize.min.css"  media="screen,projection"/>
+            <link rel="stylesheet" href="<?php echo URL?>Public/style.css">
+            <link type="text/css" rel="stylesheet" href="<?php echo URL?>Public/fonts/material-icons.css">
+            <link type="text/css" rel="stylesheet" href="<?php echo URL?>Public/css/scroll.css">
+            <link type="text/css" rel="stylesheet" href="<?php echo URL?>Public/css/style.min.css" media="screen,projection"/>
+
+            <!--Aquí van los escripts-->
+            <script type="text/javascript" src="<?php echo URL?>Public/js/plugins/jquery-1.11.2.min.js"></script>
+            <script type="text/javascript" src="<?php echo URL?>Public/js/plugins/materialize.min.js"></script>
+            <script type="text/javascript" src="<?php echo URL?>Public/js/plugins/pagination.js"></script>
+            <script type="text/javascript" src="<?php echo URL?>Public/js/plugins/jquery.validate.min.js"></script>
+            <script type="text/javascript" src="<?php echo URL?>Public/js/plugins/uifilter.js"></script>
+            <script type="text/javascript" src="<?php echo URL?>Public/js/plugins/highcharts.js"></script>
 
             <title>Registro de Congreso</title>
         </head>

@@ -20,7 +20,7 @@ class MedicoController
 
     public function index()
     {
-        $datos=$this->Medico->getAll();
+        $datos[0]=$this->Medico->getAll();
         return $datos;
     }
     public  function  crear(){
@@ -30,18 +30,18 @@ class MedicoController
             $this->Medico->set('descripcion_medico',$_POST["descripcion_medico"]);
 
             $this->Medico->add();
-            $datos=$this->Medico->getAll();
+            $datos[0]=$this->Medico->getAll();
             return $datos;
         }
     }
     public function eliminar($id){
         $this->Medico->delete($id[0]);
-        $datos=$this->Medico->getAll();
+        $datos[0]=$this->Medico->getAll();
         return $datos;
     }
     public function modificar($id)
     {
-        $datos=$this->Medico->getOne($id[0]);
+        $datos[0]=$this->Medico->getOne($id[0]);
         return $datos;
     }
     public function actualizar($id)
@@ -51,7 +51,7 @@ class MedicoController
             $this->Medico->set("id_medico",$id[0]);
             $this->Medico->set('descripcion_medico',$_POST["descripcion_medico"]);
             $this->Medico->update();
-            $datos=$this->Medico->getAll();
+            $datos[0]=$this->Medico->getAll();
             return $datos;
         }
     }
