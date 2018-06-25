@@ -17,7 +17,7 @@ class Request
             $ruta = array_filter($ruta);
             if ($ruta[0] == "index.php")
             {
-                $this->controlador = "inicio";
+                $this->controlador = "personas";
             }
             else
             {
