@@ -36,12 +36,14 @@ class Template
         <main class="container">
         <?php
     }
-
     public static function footer()
     {
+        /*echo "footer de mi proyecto";*/
         ?>
         </main>
-        <footer class="page-footer #bdbdbd grey lighten-1">
+        <aside id="cont_modal"></aside>
+            <footer class="page-footer #bdbdbd grey lighten-1">
+
                       <div class="footer-copyright #bdbdbd grey lighten-1">
                           <div class="container">
                               <div class="col l1">
