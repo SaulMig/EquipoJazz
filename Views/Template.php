@@ -45,6 +45,7 @@ class Template
             <div class="row">
                 <form class="col s12">
                     <div class="row">
+
                         <div class="input-field col s6">
                         <input id="first_name" type="text" class="validate">
                         <label for="first_name">Primer apellido</label>
@@ -55,6 +56,7 @@ class Template
                         </div>
                     </div>
                 </form>
+            </div>
 
                     <div class="row">
                         <form class="col s12">
@@ -115,7 +117,7 @@ class Template
                                                     </div>
                                                 </form>
                                             </div>
-            </div>
+                                                <form>
 
                                                     <div class="row">
                                                         <form class="col s12">
@@ -128,99 +130,187 @@ class Template
                                                                     <input id="año de estudio" type="text" class="validate">
                                                                     <label for="codigo">Año de estudio</label>
                                                                 </div>
-                                                                <div class="input-field col s4">
+
+                                                                <div class=" col s4">
                                                                     <p>
                                                                         <input type="checkbox" id="test1" />
                                                                         <label for="test1">Hospital</label>
                                                                     </p>
                                                                 </div>
-                                                                <div class="input-field col s4">
+                                                                <div class=" col s4">
                                                                     <p>
                                                                         <input type="checkbox" id="test2" />
                                                                         <label for="test2">Institución</label>
                                                                     </p>
                                                                 </div>
-                                                                <div class="input-field col s4">
+                                                                <div class=" col s4">
                                                                     <p>
                                                                         <input type="checkbox" id="test3" />
                                                                         <label for="test3">Estudiantes</label>
                                                                     </p>
                                                                 </div>
                                                                 <div >
+
+                                                                    <div class=" col s12">
+                                                                        <label>|Pre-congreso| 24 de Septiembre |</label>
+                                                                    </div>
+
                                                                     <br>
-                                                                    <div class="input-field col s6">
-                                                                        <br><p>
-                                                                            <br>
+                                                                    <div class=" col s6">
+                                                                        <p>
+
                                                                             <input type="checkbox" id="test4" />
                                                                             <label for="test4">Curso de Insulinoterapía</label>
                                                                         </p>
                                                                     </div>
-                                                                    <br>
-                                                                    <div class="input-field col s12">
-                                                                        <label>|Pre-congreso| 24 de Septiembre |</label>
-                                                                    </div>
-                                                                    <div class="input-field col s6">
-                                                                        <p><br><br>
-                                                                            <input type="checkbox" id="test5" />
-                                                                            <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
+                                                                    <div class="col s6">
+=======
+                                                                <form action="Template.php">
+                                                                    <div class="input-field col s4">
+                                                                        <p>
+                                                                            <input type="checkbox" id="test1" />
+                                                                            <label for="test1">Hospital</label>
                                                                         </p>
                                                                     </div>
-                                                                </div>
-                                                                <br>
-                                                                <div class="input-field col s12">
-                                                                    <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
-                                                                </div>
-                                                                <div>
-                                                                    <br>
-                                                                    <div class="input-field col s6">
-                                                                        <br><p>
-                                                                            <br>
-                                                                            <input type="checkbox" id="test6" />
-                                                                            <label for="test6">Medicina Interna-Medicina del <br>
-                                                                            paciente crítico, Coordinador<br>
-                                                                            Dr. Guillermo Porras</label>
+                                                                    <div class="input-field col s4">
+                                                                        <p>
+                                                                            <input type="checkbox" id="test2" />
+                                                                            <label for="test2">Institución</label>
                                                                         </p>
                                                                     </div>
-                                                                    <div class="input-field col s6">
-                                                                        <p><br><br>
-                                                                            <input type="checkbox" id="test7" />
-                                                                            <label for="test7">Pediatría, Coordinador<br>
-                                                                            Dr. Fulgencio Báez</label>
+                                                                    <div class="input-field col s4">
+                                                                        <p>
+                                                                            <input type="checkbox" id="test3" />
+                                                                            <label for="test3">Estudiantes</label>
                                                                         </p>
                                                                     </div>
-                                                                </div>
+                                                            </div>
+                                                            <br>
+                                                            <div class="input-field col s12">
+                                                                <label>|Pre-congreso| 24 de Septiembre |</label>
+                                                            </div>
+                                                            <div >
                                                                 <br>
                                                                 <div class="input-field col s6">
                                                                     <br><p>
                                                                         <br>
+                                                                        <input type="checkbox" id="test4" />
+                                                                        <label for="test4">Curso de Insulinoterapía</label>
+                                                                    </p>
+                                                                    <div class="input-field col s6">
+
+                                                                        <p>
+                                                                            <input type="checkbox" id="test5" />
+                                                                            <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
+                                                                            <br>
+                                                                            <br>
+                                                                            <br>
+
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class=" col s12">
+                                                                    <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
+                                                                </div>
+                                                                <div>
+
+                                                                    <div class=" col s6">
+                                                                        <br><p>
+
+                                                                            <input type="checkbox" id="test6" />
+                                                                            <label for="test6">Medicina Interna-Medicina del <br>
+                                                                                paciente crítico, Coordinador<br>
+                                                                                Dr. Guillermo Porras</label>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class=" col s6">
+                                                                        <p><br>
+                                                                            <input type="checkbox" id="test7" />
+                                                                            <label for="test7">Pediatría, Coordinador<br>
+                                                                                Dr. Fulgencio Báez</label>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                                                                <div class="col s6">
+                                                                    <br><p>
+                                                                        <br>
                                                                         <input type="checkbox" id="test8" />
                                                                         <label for="test8">Cirugía, Coordinador<br>
-                                                                        Dr. Milron Mairena</label>
+                                                                            Dr. Milron Mairena</label>
                                                                     </p>
                                                                 </div>
-                                                                <div class="input-field col s6">
-                                                                    <p><br><br>
+                                                                <div class=" col s6">
+                                                                    <p>
                                                                         <input type="checkbox" id="test9" />
                                                                         <label for="test9">Actualización de enfermedad<br>
                                                                             cardiovascular, Coordinador<br>
                                                                             Dr. Daniel Rivas B.</label>
                                                                     </p>
                                                                 </div>
-                                                                <div class="input-field col s6">
-                                                                    <p><br><br>
+                                                                <div class=" col s6">
+                                                                    <p>
                                                                         <input type="checkbox" id="test10" />
                                                                         <label for="test10">Gineco-Obstetricia, Coordinador<br>
                                                                             Dr. Juan J. Lugo</label>
                                                                     </p>
                                                                 </div>
-                                                            </div>
-                                                                </div>
+                                                                </form>
 
                                                             </div>
+
+
+
                                                         </form>
                                                     </div>
+            <ul>
+                <li><a href="<?php echo URL?>personas" class="icon-jira">   Admin Almacen</a></li>
+            </ul>
 
         </main>
+        <div id="modal_registro_congreso" class="modal center-align ">
+            <div class="modal-content">
+                <div class="card-panel teal #00b8d4"><h4 align="center">Registro Nuevo Congreso</h4></div>
+                <div class="row">
+                    <form class="col s4 ">
+                        <div class="row">
+
+                            <div class="input-field col s8">
+                                <i class="mdi-action-verified-user prefix icon-pencil"></i>
+                                <input id="id_congreso" type="text" class="validate">
+                                <label for="descripcion_congreso"  data-error="incorrecto" data-success="Correcto">Nombre del Congreso</label>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal_registro_congreso">Registro Pre-congreso</a>
+
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal_registro_medico">Registro Congreso medico</a>
+
+
+        <div id="modal_registro_medico" class="modal center-align ">
+            <div class="modal-content">
+                <div class="card-panel teal #00b8d4"><h4 align="center">Registro Nuevo Congreso Medico</h4></div>
+                <div class="row">
+                    <form class="col s12 ">
+                        <div class="row">
+
+                            <div class="input-field col s8">
+                                <i class="mdi-action-verified-user prefix icon-pencil"></i>
+                                <input id="id_medico" type="text" class="validate">
+                                <label for="descripcion_medico"  data-error="incorrecto" data-success="Correcto">Nombre del Congreso Medico</label>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
             <footer class="page-footer #bdbdbd grey lighten-1">
                       <div class="footer-copyright #bdbdbd grey lighten-1">
                           <div class="container">
