@@ -1,8 +1,8 @@
 
-create table personas(id_persona int primary key AUTO_INCREMENT, ap_persona varchar(20), am_persona varchar(20), nombre_per varchar(30), 
-no_cedula int, direccion varchar(30), ciudad varchar(30), telefono varchar(10), email varchar(20), especialidad varchar(50), ano_titulacion int, 
-codigo_minsa varchar(10), ano_estudio int, estado varchar(30), id_congreso int, id_medico int);
+create table personas(id_persona int primary key AUTO_INCREMENT, ap_persona varchar(20), am_persona varchar(20), nombre_per varchar(30), no_cedula int, direccion varchar(30), ciudad varchar(30), telefono varchar(10), email varchar(20), especialidad varchar(50), ano_titulacion int, codigo_minsa varchar(10), ano_estudio int, estado varchar(30), id_congreso int, id_medico int, id_precongreso int);
 
 create table congresos(id_congreso int primary key AUTO_INCREMENT, descripcion_congreso varchar(50));
 
 create table medicos(id_medico int primary key AUTO_INCREMENT, descripcion_medico varchar(50));
+
+Create table Precongresos (id_precongreso int primary key AUTO_INCREMENT, desc_precongreso varchar (50));

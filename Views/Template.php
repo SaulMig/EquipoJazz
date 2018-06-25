@@ -157,7 +157,7 @@ class Template
                                                                     </div>
 
                                                                     <br>
-                                                                    <div class=" col s6">
+                                                                    <div class=" col s6" id="col_tabla">
                                                                         <p>
 
                                                                             <input type="checkbox" id="test4" />
@@ -165,7 +165,6 @@ class Template
                                                                         </p>
                                                                     </div>
                                                                     <div class="col s6">
-=======
                                                                 <form action="Template.php">
                                                                     <div class="input-field col s4">
                                                                         <p>
