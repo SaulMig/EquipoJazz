@@ -14,6 +14,8 @@ echo "<tr><td>{$row[0]}</td>
     <td>{$row['ano_titulacion']}</td>
     <td>{$row['especialidad']}</td>
     <td>{$row['codigo_minsa']}</td>
+    <td>{$row['ano_estudio']}</td>
+    <td>{$row['estado']}</td>
     <td>{$row['id_congreso']}</td>
     <td>{$row['id_medico']}</td>
     <td><a class='btn-flat icon-cross red-text btn_eliminar' href='#!' data-id='{$row['id_persona']}'></a></td>
