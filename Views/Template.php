@@ -111,7 +111,7 @@ class Template
                                                             <label for="direccion">Direccion</label>
                                                         </div>
                                                         <div class="input-field col s6">
-                                                            <input id="codigo minsa" type="text" class="validate">
+                                                            <input id="codigo minsa" type="text" class="validate" name="codigo">
                                                             <label for="codigo">Codigo minsa</label>
                                                         </div>
                                                     </div>
@@ -123,30 +123,30 @@ class Template
                                                         <form class="col s12">
                                                             <div class="row">
                                                                 <div class="input-field col s6">
-                                                                    <input id="ciudad" type="text" class="validate">
+                                                                    <input id="ciudad" type="text" class="validate" name="ciudad">
                                                                     <label for="ciudad">Ciudad</label>
                                                                 </div>
                                                                 <div class="input-field col s6">
-                                                                    <input id="año de estudio" type="text" class="validate">
-                                                                    <label for="codigo">Año de estudio</label>
+                                                                    <input id="año de estudio" type="text" class="validate" name="año_estudio">
+                                                                    <label for="año_estudio">Año de estudio</label>
                                                                 </div>
 
                                                                 <div class=" col s4">
                                                                     <p>
-                                                                        <input type="checkbox" id="test1" />
-                                                                        <label for="test1">Hospital</label>
+                                                                        <input type="checkbox" id="test1" name="hospital" />
+                                                                        <label for="hospital">Hospital</label>
                                                                     </p>
                                                                 </div>
                                                                 <div class=" col s4">
                                                                     <p>
-                                                                        <input type="checkbox" id="test2" />
-                                                                        <label for="test2">Institución</label>
+                                                                        <input type="checkbox" id="test2" name="institucion"/>
+                                                                        <label for="institucion">Institución</label>
                                                                     </p>
                                                                 </div>
                                                                 <div class=" col s4">
                                                                     <p>
-                                                                        <input type="checkbox" id="test3" />
-                                                                        <label for="test3">Estudiantes</label>
+                                                                        <input type="checkbox" id="test3" name="estudiantes" />
+                                                                        <label for="estudiantes">Estudiantes</label>
                                                                     </p>
                                                                 </div>
                                                                 <div >
@@ -160,15 +160,15 @@ class Template
                                                                     <div class=" col s6">
                                                                         <p>
 
-                                                                            <input type="checkbox" id="test4" />
-                                                                            <label for="test4">Curso de Insulinoterapía</label>
+                                                                            <input type="checkbox" id="test4" name="curso_insulinoterapia" />
+                                                                            <label for="curso">Curso de Insulinoterapía</label>
                                                                         </p>
                                                                     </div>
                                                                     <div class=" col s6">
 
                                                                         <p>
-                                                                            <input type="checkbox" id="test5" />
-                                                                            <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
+                                                                            <input type="checkbox" id="test5" name="curso_abordaje"/>
+                                                                            <label for="curso_abordaje">Curso de Abordaje de Vía Aérea Difícil</label>
 
 
                                                                         </p>
@@ -189,16 +189,16 @@ class Template
                                                                 <div class=" col s6">
                                                                         <br><p>
 
-                                                                            <input type="checkbox" id="test6" />
-                                                                            <label for="test6">Medicina Interna-Medicina del <br>
+                                                                            <input type="checkbox" id="test6" name="medicina"/>
+                                                                            <label for="medicina">Medicina Interna-Medicina del <br>
                                                                                 paciente crítico, Coordinador<br>
                                                                                 Dr. Guillermo Porras</label>
                                                                         </p>
                                                                     </div>
                                                                     <div class=" col s6">
                                                                         <p><br>
-                                                                            <input type="checkbox" id="test7" />
-                                                                            <label for="test7">Pediatría, Coordinador<br>
+                                                                            <input type="checkbox" id="test7" name="pediatria"/>
+                                                                            <label for="pediatria">Pediatría, Coordinador<br>
                                                                                 Dr. Fulgencio Báez</label>
                                                                         </p>
                                                                     </div>
@@ -207,23 +207,23 @@ class Template
                                                                 <div class="col s6">
                                                                     <br><p>
                                                                         <br>
-                                                                        <input type="checkbox" id="test8" />
-                                                                        <label for="test8">Cirugía, Coordinador<br>
+                                                                        <input type="checkbox" id="test8" name="cirugia" />
+                                                                        <label for="cirugia">Cirugía, Coordinador<br>
                                                                             Dr. Milron Mairena</label>
                                                                     </p>
                                                                 </div>
                                                                 <div class=" col s6">
                                                                     <p>
-                                                                        <input type="checkbox" id="test9" />
-                                                                        <label for="test9">Actualización de enfermedad<br>
+                                                                        <input type="checkbox" id="test9" name="actualizacion"/>
+                                                                        <label for="actualizacion">Actualización de enfermedad<br>
                                                                             cardiovascular, Coordinador<br>
                                                                             Dr. Daniel Rivas B.</label>
                                                                     </p>
                                                                 </div>
                                                                 <div class=" col s6">
                                                                     <p>
-                                                                        <input type="checkbox" id="test10" />
-                                                                        <label for="test10">Gineco-Obstetricia, Coordinador<br>
+                                                                        <input type="checkbox" id="test10" name="gine"/>
+                                                                        <label for="gine">Gineco-Obstetricia, Coordinador<br>
                                                                             Dr. Juan J. Lugo</label>
                                                                     </p>
                                                                 </div>
@@ -257,7 +257,7 @@ class Template
         <a class="waves-effect waves-light btn modal-trigger" href="#modal_registro_congreso">Registro Pre-congreso</a>
 
         <a class="waves-effect waves-light btn modal-trigger" href="#modal_registro_medico">Registro Congreso medico</a>
-
+        
 
         <div id="modal_registro_medico" class="modal center-align ">
             <div class="modal-content">
