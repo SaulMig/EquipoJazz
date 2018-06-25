@@ -41,8 +41,6 @@
             <tr>
                 <th>Id</th>
                 <th>Precongreso</th>
-                <th></th>
-                <th></th>
             </tr>
         </thead>
         <tbody id="body_table">
@@ -87,6 +85,7 @@
 
         $("#eliminar_ok").click(function(){
             $.get($(this).attr("url"),function(res){
+
                 $("#body_table").empty().append(res);
                 Materialize.toast('Se ha eliminado correctamente', 2500);
             });
@@ -137,6 +136,7 @@
             },
             submitHandler:function(form){
                 $.post("<?php echo URL?>congreso/crear",$("#save_congreso").serialize(),function(res){
+                    //console.log($("#save_congreso").serialize());
                     $("#body_table").empty().append(res);
                     $('#save_congreso').find('input, select, textarea').val('');
                     Materialize.updateTextFields();

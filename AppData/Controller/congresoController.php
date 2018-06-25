@@ -26,28 +26,37 @@ class congresoController
     {
         if($_POST)
         {
-            $this->congresos->set("id_congreso",$_POST['descripcion_congreso']);
+            $this->congresos->set("descripcion_congreso",$_POST['descripcion_congreso']);
             $this->congresos->add();
-            header("Location:".URL."congreso?msg=ok");
+            $datos= $this->congresos->getAll();
+            return $datos;
+            //header("Location:".URL."congreso?msg=ok");
         }
     }
     public function modificar ($id)
     {
-        $datos=$this->congresos->edit($id[0]);
+        $datos=$this->congresos->getOne($id[0]);
         return $datos;
     }
-    public function update ()
+    public function actualizar($id)
     {
-        $this->congresos->set("id_congreso",$_POST['id_congreso']);
-        $this->congresos->set("descripcion_congreso",$_POST['descripcion_congreso']);
-        $this->congresos->update();
-        header("Location:".URL."Congreso");
+
+
+        if($_POST)
+        {
+            $this->congresos->set("id_congreso",$id[0]);
+            $this->congresos->set("descripcion_congreso",$_POST['descripcion_congreso']);
+            $this->congresos->update();
+            $datos=$this->congresos->getAll();
+            return $datos;
+        }
     }
 
     public function eliminar ($id)
     {
         $this->congresos->delete($id{0});
-        header("Location:".URL."Congreso");
+        $datos=$this->congresos->getAll();
+        return $datos;
     }
 
 }

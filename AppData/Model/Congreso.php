@@ -38,25 +38,25 @@ class Congreso
 
     function getAll()
     {
-        $sql="SELECT descripcion_congreso 
-        FROM congresos";
+        $sql="SELECT * FROM congresos";
         $datos[0]=$this->conexion->QueryResultado($sql);
         return $datos;
     }
 
     function delete($id)
     {
-        $sql="delete from {$this->tabla} where id_congreso='{$id}'";
+        $sql="delete from congresos where id_congreso='{$id}'";
         $this->conexion->QuerySimple($sql);
+
     }
     function getOne($id)
     {
         $sql="select * from  {$this->tabla} where id_congreso='{$id}'";
-        $datos[0]=$this->conexion->QueryResultado($sql);
+        $datos=$this->conexion->QueryResultado($sql);
         return $datos;
     }
     function update(){
-        $sql="update congreso set descripcion_congreso='{$this->descripcion_congreso}' where id_congreso='{$this->id_congreso}'";
+        $sql="update congresos set descripcion_congreso='{$this->descripcion_congreso}' where id_congreso='{$this->id_congreso}'";
         $this->conexion->QuerySimple($sql);
     }
 }

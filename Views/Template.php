@@ -17,6 +17,7 @@ class Template
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
             <link type="text/css" rel="stylesheet" href="<?php echo URL?>Public/css/materialize.min.css"  media="screen,projection"/>
             <link rel="stylesheet" href="<?php echo URL?>Public/style.css">
+
             <link type="text/css" rel="stylesheet" href="<?php echo URL?>Public/fonts/material-icons.css">
             <link type="text/css" rel="stylesheet" href="<?php echo URL?>Public/css/scroll.css">
             <link type="text/css" rel="stylesheet" href="<?php echo URL?>Public/css/style.min.css" media="screen,projection"/>
