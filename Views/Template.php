@@ -257,11 +257,11 @@ class Template
         <a class="waves-effect waves-light btn modal-trigger" href="#modal_registro_congreso">Registro Pre-congreso</a>
 
         <a class="waves-effect waves-light btn modal-trigger" href="#modal_registro_medico">Registro Congreso medico</a>
-<<<<<<< HEAD
+
         <a href="<?php echo URL?>personas/print_pdf" target="_blank" id="imprimir_pdf" class="btn blue accent-3 white-text tooltipped" data-position="bottom" data-delay="50" data-tooltip="Imprimir"><i class="material-icons">picture_as_pdf</i></a>
-=======
+
         
->>>>>>> 9a0acad8389c7786f2f598da2e1b42006294f0ca
+
 
         <div id="modal_registro_medico" class="modal center-align ">
             <div class="modal-content">
