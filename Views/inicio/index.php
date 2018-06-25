@@ -8,7 +8,7 @@
     <br>
     <h4>| Formulario de inscripción |</h4>
     <div class="row">
-        <form class="col s12">
+        <form class="col s12" id="Nombres_formulario">
             <div class="row">
 
                 <div class="input-field col s6">
