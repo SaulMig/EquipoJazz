@@ -1,24 +1,24 @@
 <div id="modal_registro" class="modal">
     <div class="modal-content">
         <div class="card-panel">
-            <form action="" id="save_tipotarea" enctype="multipart/form-data" autocomplete="off">
+            <form action="" id="save_congreso" enctype="multipart/form-data" autocomplete="off">
                 <h4 align="center">Agregar un nuevo precongreso</h4>
                 <div class="divider"></div>
                 <code class=" language-markup"><!--********************************--></code>
                 <div class="row">
                     <div class="row">
                         <div class="input-field input-field col s5">
-                            <input id="descripcion_tarea" type="text"  name="descripcion_tarea">
-                            <label for="descripcion_tarea"  >Descripcion del precongreso</label>
+                            <input id="descripcion_congreso" type="text"  name="descripcion_congreso">
+                            <label for="descripcion_congreso"  >Descripcion del precongreso</label>
                         </div>
                     </div>
 
                     <div class="modal-fixed-footer">
                         <div class="input-field col s12">
-                            <a href="#!" id="save_tipotarea_ok" class="btn ">Registrar</a>
+                            <a href="#!" id="save_congreso_ok" class="btn ">Registrar</a>
                         </div>
                         <div class="input-field col s12">
-                            <a href="#!" id="update_tipotarea_ok" class="btn modal-close " data-id="">Actualizar</a>
+                            <a href="#!" id="update_congreso_ok" class="btn modal-close " data-id="">Actualizar</a>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
 </div>
 
 <div class="card-panel">
-    <h4 align="center">Tareas<span class="right"><a href="#modal_registro" class="btn green white-text modal-trigger" id="add_tipotarea"><i class="material-icons">add</i></a></span></h4>
+    <h4 align="center">Pre-congresos<span class="right"><a href="#modal_registro" class="btn green white-text modal-trigger" id="add_congreso"><i class="material-icons">add</i></a></span></h4>
     <div class="divider"></div>
     <div class="row">
         <div class="input-field col s4 offset-s8">
@@ -40,7 +40,7 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Pre-congreso</th>
+                <th>Precongreso</th>
                 <th></th>
                 <th></th>
             </tr>
@@ -70,13 +70,13 @@
     $(document).ready(function(){
         $('select').material_select();
         $(".modal").modal();
-        $("#add_tipotarea").click(function(){
-            $("#update_tipotarea_ok").hide();
-            $("#save_tipotarea_ok").show();
+        $("#add_congreso").click(function(){
+            $("#update_congreso_ok").hide();
+            $("#save_congreso_ok").show();
         });
 
-        $("#save_tipotarea_ok").click(function() {
-            $("#save_tipotarea").submit();
+        $("#save_congreso_ok").click(function() {
+            $("#save_congreso").submit();
         });
         $("#body_table").on("click","a.btn_eliminar",function(){
             var id=$(this).data("id");
@@ -92,23 +92,23 @@
             });
         });
         $("#body_table").on("click","a.btn_modificar",function(){
-            $("#update_tipotarea_ok").show();
-            $("#save_tipotarea_ok").hide();
+            $("#update_congreso_ok").show();
+            $("#save_congreso_ok").hide();
             var id=$(this).data("id");
             $.get("<?php echo URL?>congreso/modificar/"+id,function(res){
                 var datos=JSON.parse(res);
-                $("#update_tipotarea_ok").data("id",datos["id_congreso"]);
-                $("#descripcion_tarea").val(datos["descripcion_congreso"]);
+                $("#update_congreso_ok").data("id",datos["id_congreso"]);
+                $("#descripcion_congreso").val(datos["descripcion_congreso"]);
                 Materialize.updateTextFields();
                 $('select').material_select();
                 $("#modal_registro").modal("open");
             });
         });
 
-        $("#update_tipotarea_ok").click(function(){
+        $("#update_congreso_ok").click(function(){
             var id=$(this).data("id");
-            $.post("<?php echo URL?>congreso/actualizar/"+id,$("#save_tipotarea").serialize(),function(res){
-                $('#save_tipotarea').find('input, select, textarea').val('');
+            $.post("<?php echo URL?>congreso/actualizar/"+id,$("#save_congreso").serialize(),function(res){
+                $('#save_congreso').find('input, select, textarea').val('');
                 $("#body_table").empty().append(res);
                 Materialize.updateTextFields();
                 Materialize.toast('Se ha modificado correctamente', 2500);
@@ -116,7 +116,7 @@
         });
 
 
-        $("#save_tipotarea").validate({
+        $("#save_congreso").validate({
 
             rules:{
                 descripcion_tarea:{
@@ -136,9 +136,9 @@
                     .attr('data-error', error.text());
             },
             submitHandler:function(form){
-                $.post("<?php echo URL?>congreso/crear",$("#save_tipotarea").serialize(),function(res){
+                $.post("<?php echo URL?>congreso/crear",$("#save_congreso").serialize(),function(res){
                     $("#body_table").empty().append(res);
-                    $('#save_tipotarea').find('input, select, textarea').val('');
+                    $('#save_congreso').find('input, select, textarea').val('');
                     Materialize.updateTextFields();
                     $("#modal_registro").modal("close");
                 })

@@ -26,9 +26,9 @@ class congresoController
     {
         if($_POST)
         {
-            $this->congresos->set("descripcion_congreso",$_POST['descripcion_congreso']);
+            $this->congresos->set("id_congreso",$_POST['descripcion_congreso']);
             $this->congresos->add();
-            header("Location:".URL."Congreso?msg=ok");
+            header("Location:".URL."congreso?msg=ok");
         }
     }
     public function modificar ($id)

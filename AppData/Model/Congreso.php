@@ -11,7 +11,7 @@ namespace AppData\Model;
 
 class Congreso
 {
-    private $tabla="congreso";
+    private $tabla="congresos";
     private $id_congreso;
     private $descripcion_congreso;
 
@@ -39,8 +39,8 @@ class Congreso
     function getAll()
     {
         $sql="SELECT descripcion_congreso 
-        FROM congreso";
-        $datos=$this->conexion->QueryResultado($sql);
+        FROM congresos";
+        $datos[0]=$this->conexion->QueryResultado($sql);
         return $datos;
     }
 
@@ -52,7 +52,7 @@ class Congreso
     function getOne($id)
     {
         $sql="select * from  {$this->tabla} where id_congreso='{$id}'";
-        $datos=$this->conexion->QueryResultado($sql);
+        $datos[0]=$this->conexion->QueryResultado($sql);
         return $datos;
     }
     function update(){
