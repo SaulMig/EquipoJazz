@@ -20,4 +20,5 @@ echo "<tr><td>{$row[0]}</td>
     <td>{$row['id_medico']}</td>
     <td><a class='btn-flat icon-cross red-text btn_eliminar' href='#!' data-id='{$row['id_persona']}'></a></td>
     <td><a class='btn-flat icon-pencil blue-text btn_modificar ' data-id='{$row['id_persona']}' href='#!'></a></td></tr>";
+
 ?>
