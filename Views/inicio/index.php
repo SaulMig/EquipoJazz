@@ -115,38 +115,42 @@
                         </p>
                     </div>
                     <div >
-
-                        <div class=" col s12">
-                            <label>|Pre-congreso| 24 de Septiembre |</label>
-                        </div>
-                        <br>
-                        <div>
-
-                            <div class=" col s6">
-                                <p>
-
-                                    <input name="group2" type="radio" id="test4" />
-                                    <label for="test4">Curso de Insulinoterapía</label>
-                                </p>
-                            </div>
-                            <div class=" col s6">
-
-                                <p>
-                                    <input name="group2" type="radio" id="test5" />
-                                    <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
-
-
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col s6">
-
-                            <form action="Template.php">
-
-                        </div>
-                        <br>
                         <div class="input-field col s12">
-                            <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
+                            <div class=" white-text col s5 background black">
+                                <h6>|Pre-congreso| 24 de Septiembre |</h6>
+                            </div>
+                            <div col s6>
+                                <a class="waves-effect waves-light btn"><i class="material-icons right">add</i> Registra Pre-congreso Medico</a>
+                            </div>
+                        </div>
+                            <br>
+                            <div>
+                                <div class=" col s6">
+                                    <p>
+                                        <input name="group2" type="radio" id="test4" />
+                                        <label for="test4">Curso de Insulinoterapía</label>
+                                    </p>
+                                </div>
+                                <div class=" col s6">
+                                    <p>
+                                        <input name="group2" type="radio" id="test5" />
+                                        <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
+                                     </p>
+                                </div>
+                            </div>
+                            <div class="col s6">
+                                <form action="Template.php">
+                            </div>
+                            <br>
+                            <div class="input-field col s12">
+                                <div class=" white-text col s5 background black">
+                                    <h6>|Congreso Médico| 25 y 26 de Septiembre |</h6>
+                                </div>
+                                <div col s6>
+                                    <a class="waves-effect waves-light btn"><i class="material-icons right">add</i> Registra Congreso Medico</a>
+                                </div>
+                            </div>
+
                         </div>
                         <br>
                         <br>
