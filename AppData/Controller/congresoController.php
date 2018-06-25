@@ -9,7 +9,7 @@
 namespace AppData\Controller;
 
 
-class CongresoController
+class congresoController
 {
     private $congresos;
     public function __construct()
