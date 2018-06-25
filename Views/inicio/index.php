@@ -202,7 +202,9 @@
         </div>
     </form>
     </div>
-
+    <div class="center">
+        <a href="<?php echo URL?>personas/print_pdf" target="_blank" id="imprimir_pdf" class="btn blue accent-3 white-text tooltipped" data-position="bottom" data-delay="50" data-tooltip="Imprimir"><i class="material-icons">picture_as_pdf</i></a>
+    </div>
 
 </main>
 <div id="modal_registro_congreso" class="modal center-align ">
