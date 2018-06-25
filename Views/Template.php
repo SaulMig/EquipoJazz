@@ -155,8 +155,9 @@ class Template
                                                                     <div class=" col s12">
                                                                         <label>|Pre-congreso| 24 de Septiembre |</label>
                                                                     </div>
-
                                                                     <br>
+                                                                    <div>
+
                                                                     <div class=" col s6">
                                                                         <p>
 
@@ -164,59 +165,29 @@ class Template
                                                                             <label for="test4">Curso de Insulinoterapía</label>
                                                                         </p>
                                                                     </div>
-                                                                    <div class="col s6">
-=======
-                                                                <form action="Template.php">
-                                                                    <div class="input-field col s4">
-                                                                        <p>
-                                                                            <input type="checkbox" id="test1" />
-                                                                            <label for="test1">Hospital</label>
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="input-field col s4">
-                                                                        <p>
-                                                                            <input type="checkbox" id="test2" />
-                                                                            <label for="test2">Institución</label>
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="input-field col s4">
-                                                                        <p>
-                                                                            <input type="checkbox" id="test3" />
-                                                                            <label for="test3">Estudiantes</label>
-                                                                        </p>
-                                                                    </div>
-                                                            </div>
-                                                            <br>
-                                                            <div class="input-field col s12">
-                                                                <label>|Pre-congreso| 24 de Septiembre |</label>
-                                                            </div>
-                                                            <div >
-                                                                <br>
-                                                                <div class="input-field col s6">
-                                                                    <br><p>
-                                                                        <br>
-                                                                        <input type="checkbox" id="test4" />
-                                                                        <label for="test4">Curso de Insulinoterapía</label>
-                                                                    </p>
-                                                                    <div class="input-field col s6">
+                                                                    <div class=" col s6">
 
                                                                         <p>
                                                                             <input type="checkbox" id="test5" />
                                                                             <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
-                                                                            <br>
-                                                                            <br>
-                                                                            <br>
+
 
                                                                         </p>
                                                                     </div>
-                                                                </div>
+                                                                    </div>
+                                                                    <div class="col s6">
 
-                                                                <div class=" col s12">
-                                                                    <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
-                                                                </div>
-                                                                <div>
+                                                                <form action="Template.php">
 
-                                                                    <div class=" col s6">
+                                                            </div>
+                                                            <br>
+                                                            <div class="input-field col s12">
+                                                                <label>|Congreso Médico| 25 y 26 de Septiembre |</label>
+                                                            </div>
+                                                            <div >
+                                                                <br>
+                                                                <br>
+                                                                <div class=" col s6">
                                                                         <br><p>
 
                                                                             <input type="checkbox" id="test6" />
@@ -260,14 +231,9 @@ class Template
                                                                 </form>
 
                                                             </div>
-
-
-
-                                                        </form>
+                                                </form>
                                                     </div>
-            <ul>
-                <li><a href="<?php echo URL?>personas" class="icon-jira">   Admin Almacen</a></li>
-            </ul>
+
 
         </main>
         <div id="modal_registro_congreso" class="modal center-align ">
