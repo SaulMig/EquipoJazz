@@ -97,23 +97,32 @@
                     </div>
 
                     <div class=" col s4">
-                        <p>
-                            <input name="group1" type="radio" id="test1" />
-                            <label for="test1">Hospital</label>
-                        </p>
+                          <p>
+                              <label>
+                                <input type="checkbox" id="test1" />
+                                <span for="test1">Hospitales</span>
+                              </label>
+                            </p>
                     </div>
+
                     <div class=" col s4">
                         <p>
-                            <input name="group1" type="radio" id="test2" />
-                            <label for="test2">Institución</label>
+                            <label>
+                            <input type="checkbox" id="test2" />
+                            <span for="test2">Institución</span>
+                            </label>
                         </p>
                     </div>
+
                     <div class=" col s4">
                         <p>
-                            <input name="group1" type="radio" id="test3" />
-                            <label for="test3">Estudiantes</label>
+                        <label>
+                            <input type="checkbox" id="test3" />
+                            <span for="test3">Estudiantes</span>
+                        </label>
                         </p>
                     </div>
+
                     <div >
                         <div class="input-field col s12">
                             <div class=" white-text col s5 background black">
@@ -127,16 +136,22 @@
                             <div>
                                 <div class=" col s6">
                                     <p>
-                                        <input name="group2" type="radio" id="test4" />
-                                        <label for="test4">Curso de Insulinoterapía</label>
+                                    <label>
+                                        <input type="checkbox" id="test4" />
+                                        <span for="test4">Curso de Insulinoterapía</span>
+                                    </label>
                                     </p>
                                 </div>
+
                                 <div class=" col s6">
                                     <p>
-                                        <input name="group2" type="radio" id="test5" />
-                                        <label for="test5">Curso de Abordaje de Vía Aérea Difícil</label>
+                                    <label>
+                                        <input  type="checkbox" id="test5" />
+                                        <span for="test5">Curso de Abordaje de Vía Aérea Difícil</span>
+                                    </label>
                                      </p>
                                 </div>
+
                             </div>
                             <div class="col s6">
                                 <form action="Template.php">
@@ -158,43 +173,56 @@
 
                             <div class=" col s6">
                                 <br><p>
-
-                                    <input name="group3" type="radio" id="test6" />
-                                    <label for="test6">Medicina Interna-Medicina del <br>
+                                    <label>
+                                    <input  type="checkbox" id="test6" />
+                                    <span for="test6">Medicina Interna-Medicina del <br>
                                         paciente crítico, Coordinador<br>
-                                        Dr. Guillermo Porras</label>
+                                        Dr. Guillermo Porras</span>
+                                    </label>
                                 </p>
                             </div>
+
                             <div class=" col s6">
                                 <p><br>
-                                    <input name="group3" type="radio" id="test7" />
-                                    <label for="test7">Pediatría, Coordinador<br>
-                                        Dr. Fulgencio Báez</label>
+                                <label>
+                                    <input  type="checkbox" id="test7" />
+                                    <span for="test7">Pediatría, Coordinador<br>
+                                        Dr. Fulgencio Báez</span>
+                                </label>
                                 </p>
                             </div>
+
                         </div>
                         <br>
                         <div class="col s6">
                             <br><p>
                                 <br>
-                                <input name="group3" type="radio" id="test8" />
-                                <label for="test8">Cirugía, Coordinador<br>
-                                    Dr. Milron Mairena</label>
+                                <label>
+                                <input  type="checkbox" id="test8" />
+                                <span for="test8">Cirugía, Coordinador<br>
+                                    Dr. Milron Mairena</span>
+                                </label>
                             </p>
                         </div>
+
                         <div class=" col s6">
                             <p>
-                                <input name="group3" type="radio" id="test9" />
-                                <label for="test9">Actualización de enfermedad<br>
+                            <label>
+                                <input type="checkbox" id="test9" />
+                                <span for="test9">Actualización de enfermedad<br>
                                     cardiovascular, Coordinador<br>
-                                    Dr. Daniel Rivas B.</label>
+                                    Dr. Daniel Rivas B.</span>
+                            </label>
                             </p>
                         </div>
+
                         <div class=" col s6">
                             <p>
-                                <input name="group3" type="radio" id="test10" />
-                                <label for="test10">Gineco-Obstetricia, Coordinador<br>
-                                    Dr. Juan J. Lugo</label>
+                            <label>
+                                <input  type="checkbox" id="test10" />
+                                <span> for="test10">Gineco-Obstetricia, Coordinador<br>
+                                    Dr. Juan J. Lugo</span>
+                            </label>
                             </p>
                         </div>
             </form>

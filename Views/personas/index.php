@@ -63,12 +63,7 @@
         </div>
     </div>
     <div class="row">
-        <div class=" col s4">
-            <p>
-                <input type="checkbox" id="test1" />
-                <label for="test1">Hospital</label>
-            </p>
-        </div>
+        
         <div class=" col s4">
             <p>
                 <input type="checkbox" id="test2" />
